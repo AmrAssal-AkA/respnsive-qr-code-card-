@@ -1,0 +1,28 @@
+.card-custom{
+    border: 2px solid black;
+    
+}
+.card-custom p{
+    font-family: "[Outfit](https://fonts.google.com/specimen/Outfit)";
+    font-size: 12px;
+    font-weight: 400;
+}
+.card-custom h5{
+    font-family: "[Outfit](https://fonts.google.com/specimen/Outfit)";
+    font-size: 18px;
+    font-weight: 700;
+}
+
+@media (max-width: 375px){
+    .card-custom{
+        display: flex;
+    width: 200px;
+    font-size: 8px;
+    
+}
+}
+@media (max-width: 1440px){
+    .card-custom{
+        min-width: 250px;
+    }
+}
